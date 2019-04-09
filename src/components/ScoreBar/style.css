@@ -5,3 +5,8 @@
 .ml-2 {
   margin-left: 1rem;
 }
+
+.scorebar {
+  background:#3d5afe;
+  color: white;
+}

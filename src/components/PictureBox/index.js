@@ -1,25 +1,30 @@
 import React, { Component } from "react";
+import PictureCard from '../PictureCard'
 
 function PictureBox() {
   return (
-    <nav class="level has-background-primary">
-      <div class="level-item has-text-centered">
-        <div>
-          <p class="heading">Current Streak:</p>
-          <p class="title">**</p>
-        </div>
+    <div>
+      <div class="row">
+        <div class="col s1 m3"><PictureCard /></div>
+        <div class="col s1 m3"><PictureCard /></div>
+        <div class="col s1 m3"><PictureCard /></div>
+        <div class="col s1 m3"><PictureCard /></div>
       </div>
-      <div class="level-item has-text-centered">
-        <div>
-        </div>
+
+      <div class="row">
+        <div class="col s1 m3"><PictureCard /></div>
+        <div class="col s1 m3"><PictureCard /></div>
+        <div class="col s1 m3"><PictureCard /></div>
+        <div class="col s1 m3"><PictureCard /></div>
       </div>
-      <div class="level-item has-text-centered">
-        <div>
-          <p class="heading">High Score:</p>
-          <p class="title">**</p>
-        </div>
+
+      <div class="row">
+        <div class="col s1 m3"><PictureCard /></div>
+        <div class="col s1 m3"><PictureCard /></div>
+        <div class="col s1 m3"><PictureCard /></div>
+        <div class="col s1 m3"><PictureCard /></div>
       </div>
-</nav>
+    </div>
   )
 }
 

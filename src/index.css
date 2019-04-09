@@ -6,9 +6,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #e0e0e0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.numbers {
+  font-family: 'Dokdo', cursive;
+  font-size: 100px;
+  border: 0;
+  margin: 0;
+}
+
+.card-content {
+  padding: 0;
+  box-shadow: -2px 2px 2px 0px #3d5afe;
 }

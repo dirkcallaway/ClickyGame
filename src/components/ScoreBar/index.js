@@ -3,22 +3,22 @@ import "./style.css";
 
 function ScoreBar() {
   return (
-    <div class="row">
-      <div class="col s1 m6">
-        <h4 class="inline">
+    <div class="row scorebar">
+      <div class="col s1 m6 right-align">
+        <h5 class="inline">
           Current Streak:
-        </h4>
-        <h4 class="inline ml-2">
+        </h5>
+        <h5 class="inline ml-2">
           **
-        </h4>
+        </h5>
       </div>
       <div class="col s1 m6">
-        <h4 class="inline">
+        <h5 class="inline">
           Top Streak:
-        </h4>
-        <h4 class="inline ml-2">
+        </h5>
+        <h5 class="inline ml-2">
           **
-        </h4>
+        </h5>
       </div>
     </div>
   )
