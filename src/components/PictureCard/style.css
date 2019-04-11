@@ -1,0 +1,33 @@
+#red {
+  background-color: red;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#gold {
+  background-color: gold;
+}
+
+#green {
+  background-color: green;
+}
+
+#violet {
+  background-color: violet;
+}
+
+#indigo {
+  background-color: indigo;
+}
+
+.card {
+  width: 150px;
+  margin-left: 15px;
+  margin-right: 15px;
+}

@@ -1,23 +1,23 @@
-import React, { Component } from "react";
+import React from "react";
 import "./style.css";
 
-function ScoreBar() {
+function ScoreBar(props) {
   return (
-    <div class="row scorebar">
-      <div class="col s1 m6 right-align">
-        <h5 class="inline">
+    <div className="row scorebar">
+      <div className="col s1 m6 right-align">
+        <h5 className="inline">
           Current Streak:
         </h5>
-        <h5 class="inline ml-2">
-          **
+        <h5 className="inline ml-2">
+          {props.score}
         </h5>
       </div>
-      <div class="col s1 m6">
-        <h5 class="inline">
+      <div className="col s1 m6">
+        <h5 className="inline">
           Top Streak:
         </h5>
-        <h5 class="inline ml-2">
-          **
+        <h5 className="inline ml-2">
+          {props.highScore}
         </h5>
       </div>
     </div>

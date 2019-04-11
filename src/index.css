@@ -25,3 +25,15 @@ code {
   padding: 0;
   box-shadow: -2px 2px 2px 0px #3d5afe;
 }
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+
+#main-content{
+  position:relative;
+  z-index: 1;
+}
